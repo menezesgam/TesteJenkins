@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace TesteMqtt.CommandPattern
 {
-    class MicroChip
+    public class MicroChip
     {
-        protected Command[] reqCommands;
-        protected Command[] resCommands;
+        public Command[] reqCommands;
+        public Command[] resCommands;
 
+        public static int GetInt()
+        {
+            return 2;
+        }
     }
 }

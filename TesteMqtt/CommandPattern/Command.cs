@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TesteMqtt.CommandPattern
 {
-    interface Command
+    public interface Command
     {
         void Execute();
     }
